@@ -15,6 +15,7 @@
 		380DC66421C8A0CA00F77CF1 /* liblibEyexpoVr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 380DC66321C8A0CA00F77CF1 /* liblibEyexpoVr.a */; };
 		380DC66721C8A0EB00F77CF1 /* EyexpoPanoramaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 380DC66521C8A0EB00F77CF1 /* EyexpoPanoramaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		380DC66821C8A0EB00F77CF1 /* EyexpoPanoramaViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 380DC66621C8A0EB00F77CF1 /* EyexpoPanoramaViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		380DC6B221C8CAFF00F77CF1 /* EyexpoVr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380DC6B121C8CAFF00F77CF1 /* EyexpoVr.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		380DC66321C8A0CA00F77CF1 /* liblibEyexpoVr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibEyexpoVr.a; sourceTree = "<group>"; };
 		380DC66521C8A0EB00F77CF1 /* EyexpoPanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyexpoPanoramaView.h; sourceTree = "<group>"; };
 		380DC66621C8A0EB00F77CF1 /* EyexpoPanoramaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyexpoPanoramaViewController.h; sourceTree = "<group>"; };
+		380DC6B121C8CAFF00F77CF1 /* EyexpoVr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EyexpoVr.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				380DC6B221C8CAFF00F77CF1 /* EyexpoVr.framework in Frameworks */,
 				380DC66421C8A0CA00F77CF1 /* liblibEyexpoVr.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,6 +88,7 @@
 		380DC62621C8992500F77CF1 /* EyexpoVrSDK */ = {
 			isa = PBXGroup;
 			children = (
+				380DC6B121C8CAFF00F77CF1 /* EyexpoVr.framework */,
 				380DC66521C8A0EB00F77CF1 /* EyexpoPanoramaView.h */,
 				380DC66621C8A0EB00F77CF1 /* EyexpoPanoramaViewController.h */,
 				380DC66321C8A0CA00F77CF1 /* liblibEyexpoVr.a */,
