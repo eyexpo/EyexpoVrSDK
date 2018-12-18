@@ -7,34 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		380DC62E21C8992500F77CF1 /* EyexpoVrSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380DC62421C8992500F77CF1 /* EyexpoVrSDK.framework */; };
-		380DC63321C8992500F77CF1 /* EyexpoVrSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 380DC63221C8992500F77CF1 /* EyexpoVrSDKTests.m */; };
 		380DC64121C8995100F77CF1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 380DC63E21C8995100F77CF1 /* README.md */; };
 		380DC64221C8995100F77CF1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 380DC63F21C8995100F77CF1 /* LICENSE */; };
 		380DC64321C8995100F77CF1 /* EyexpoVrSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 380DC64021C8995100F77CF1 /* EyexpoVrSDK.podspec */; };
-		380DC6B621C8D5DD00F77CF1 /* EyexpoVr.framework.zip in Resources */ = {isa = PBXBuildFile; fileRef = 380DC6B521C8D5DD00F77CF1 /* EyexpoVr.framework.zip */; };
+		380DC6BA21C8DD9700F77CF1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 380DC6B921C8DD9700F77CF1 /* Info.plist */; };
+		380DC6BC21C8DDC200F77CF1 /* liblibEyexpoVr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 380DC6BB21C8DDC200F77CF1 /* liblibEyexpoVr.a */; };
+		380DC6BF21C8DDCD00F77CF1 /* EyexpoPanoramaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 380DC6BD21C8DDCC00F77CF1 /* EyexpoPanoramaView.h */; };
+		380DC6C021C8DDCD00F77CF1 /* EyexpoPanoramaViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 380DC6BE21C8DDCD00F77CF1 /* EyexpoPanoramaViewController.h */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		380DC62F21C8992500F77CF1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 380DC61B21C8992500F77CF1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 380DC62321C8992500F77CF1;
-			remoteInfo = EyexpoVrSDK;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		380DC62421C8992500F77CF1 /* EyexpoVrSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EyexpoVrSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		380DC62821C8992500F77CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		380DC62D21C8992500F77CF1 /* EyexpoVrSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyexpoVrSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		380DC63221C8992500F77CF1 /* EyexpoVrSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EyexpoVrSDKTests.m; sourceTree = "<group>"; };
 		380DC63421C8992500F77CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		380DC63E21C8995100F77CF1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		380DC63F21C8995100F77CF1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		380DC64021C8995100F77CF1 /* EyexpoVrSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EyexpoVrSDK.podspec; sourceTree = "<group>"; };
-		380DC6B521C8D5DD00F77CF1 /* EyexpoVr.framework.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = EyexpoVr.framework.zip; sourceTree = "<group>"; };
+		380DC6B921C8DD9700F77CF1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		380DC6BB21C8DDC200F77CF1 /* liblibEyexpoVr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibEyexpoVr.a; sourceTree = "<group>"; };
+		380DC6BD21C8DDCC00F77CF1 /* EyexpoPanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyexpoPanoramaView.h; sourceTree = "<group>"; };
+		380DC6BE21C8DDCD00F77CF1 /* EyexpoPanoramaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyexpoPanoramaViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,14 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		380DC62A21C8992500F77CF1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				380DC62E21C8992500F77CF1 /* EyexpoVrSDK.framework in Frameworks */,
+				380DC6BC21C8DDC200F77CF1 /* liblibEyexpoVr.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				380DC62421C8992500F77CF1 /* EyexpoVrSDK.framework */,
-				380DC62D21C8992500F77CF1 /* EyexpoVrSDKTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,8 +64,10 @@
 		380DC62621C8992500F77CF1 /* EyexpoVrSDK */ = {
 			isa = PBXGroup;
 			children = (
-				380DC6B521C8D5DD00F77CF1 /* EyexpoVr.framework.zip */,
-				380DC62821C8992500F77CF1 /* Info.plist */,
+				380DC6BD21C8DDCC00F77CF1 /* EyexpoPanoramaView.h */,
+				380DC6BE21C8DDCD00F77CF1 /* EyexpoPanoramaViewController.h */,
+				380DC6BB21C8DDC200F77CF1 /* liblibEyexpoVr.a */,
+				380DC6B921C8DD9700F77CF1 /* Info.plist */,
 			);
 			path = EyexpoVrSDK;
 			sourceTree = "<group>";
@@ -102,6 +88,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				380DC6C021C8DDCD00F77CF1 /* EyexpoPanoramaViewController.h in Headers */,
+				380DC6BF21C8DDCD00F77CF1 /* EyexpoPanoramaView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,24 +114,6 @@
 			productReference = 380DC62421C8992500F77CF1 /* EyexpoVrSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		380DC62C21C8992500F77CF1 /* EyexpoVrSDKTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 380DC63B21C8992500F77CF1 /* Build configuration list for PBXNativeTarget "EyexpoVrSDKTests" */;
-			buildPhases = (
-				380DC62921C8992500F77CF1 /* Sources */,
-				380DC62A21C8992500F77CF1 /* Frameworks */,
-				380DC62B21C8992500F77CF1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				380DC63021C8992500F77CF1 /* PBXTargetDependency */,
-			);
-			name = EyexpoVrSDKTests;
-			productName = EyexpoVrSDKTests;
-			productReference = 380DC62D21C8992500F77CF1 /* EyexpoVrSDKTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -154,9 +124,6 @@
 				ORGANIZATIONNAME = Eyexpo;
 				TargetAttributes = {
 					380DC62321C8992500F77CF1 = {
-						CreatedOnToolsVersion = 10.1;
-					};
-					380DC62C21C8992500F77CF1 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -174,7 +141,6 @@
 			projectRoot = "";
 			targets = (
 				380DC62321C8992500F77CF1 /* EyexpoVrSDK */,
-				380DC62C21C8992500F77CF1 /* EyexpoVrSDKTests */,
 			);
 		};
 /* End PBXProject section */
@@ -184,17 +150,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				380DC6BA21C8DD9700F77CF1 /* Info.plist in Resources */,
 				380DC64321C8995100F77CF1 /* EyexpoVrSDK.podspec in Resources */,
-				380DC6B621C8D5DD00F77CF1 /* EyexpoVr.framework.zip in Resources */,
 				380DC64221C8995100F77CF1 /* LICENSE in Resources */,
 				380DC64121C8995100F77CF1 /* README.md in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		380DC62B21C8992500F77CF1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,23 +167,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		380DC62921C8992500F77CF1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				380DC63321C8992500F77CF1 /* EyexpoVrSDKTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		380DC63021C8992500F77CF1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 380DC62321C8992500F77CF1 /* EyexpoVrSDK */;
-			targetProxy = 380DC62F21C8992500F77CF1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		380DC63621C8992500F77CF1 /* Debug */ = {
@@ -423,38 +366,6 @@
 			};
 			name = Release;
 		};
-		380DC63C21C8992500F77CF1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EyexpoVrSDKTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.eyexpo.EyexpoVrSDKTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		380DC63D21C8992500F77CF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EyexpoVrSDKTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.eyexpo.EyexpoVrSDKTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -472,15 +383,6 @@
 			buildConfigurations = (
 				380DC63921C8992500F77CF1 /* Debug */,
 				380DC63A21C8992500F77CF1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		380DC63B21C8992500F77CF1 /* Build configuration list for PBXNativeTarget "EyexpoVrSDKTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				380DC63C21C8992500F77CF1 /* Debug */,
-				380DC63D21C8992500F77CF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
