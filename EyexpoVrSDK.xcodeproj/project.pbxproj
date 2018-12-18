@@ -11,9 +11,9 @@
 		380DC64221C8995100F77CF1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 380DC63F21C8995100F77CF1 /* LICENSE */; };
 		380DC64321C8995100F77CF1 /* EyexpoVrSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 380DC64021C8995100F77CF1 /* EyexpoVrSDK.podspec */; };
 		380DC6BA21C8DD9700F77CF1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 380DC6B921C8DD9700F77CF1 /* Info.plist */; };
-		380DC6BC21C8DDC200F77CF1 /* liblibEyexpoVr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 380DC6BB21C8DDC200F77CF1 /* liblibEyexpoVr.a */; };
 		380DC6BF21C8DDCD00F77CF1 /* EyexpoPanoramaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 380DC6BD21C8DDCC00F77CF1 /* EyexpoPanoramaView.h */; };
 		380DC6C021C8DDCD00F77CF1 /* EyexpoPanoramaViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 380DC6BE21C8DDCD00F77CF1 /* EyexpoPanoramaViewController.h */; };
+		380DC6D321C8E74D00F77CF1 /* libEyexpoVr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 380DC6D221C8E74D00F77CF1 /* libEyexpoVr.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,9 +24,9 @@
 		380DC63F21C8995100F77CF1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		380DC64021C8995100F77CF1 /* EyexpoVrSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EyexpoVrSDK.podspec; sourceTree = "<group>"; };
 		380DC6B921C8DD9700F77CF1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		380DC6BB21C8DDC200F77CF1 /* liblibEyexpoVr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibEyexpoVr.a; sourceTree = "<group>"; };
 		380DC6BD21C8DDCC00F77CF1 /* EyexpoPanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyexpoPanoramaView.h; sourceTree = "<group>"; };
 		380DC6BE21C8DDCD00F77CF1 /* EyexpoPanoramaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyexpoPanoramaViewController.h; sourceTree = "<group>"; };
+		380DC6D221C8E74D00F77CF1 /* libEyexpoVr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEyexpoVr.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				380DC6BC21C8DDC200F77CF1 /* liblibEyexpoVr.a in Frameworks */,
+				380DC6D321C8E74D00F77CF1 /* libEyexpoVr.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +66,7 @@
 			children = (
 				380DC6BD21C8DDCC00F77CF1 /* EyexpoPanoramaView.h */,
 				380DC6BE21C8DDCD00F77CF1 /* EyexpoPanoramaViewController.h */,
-				380DC6BB21C8DDC200F77CF1 /* liblibEyexpoVr.a */,
+				380DC6D221C8E74D00F77CF1 /* libEyexpoVr.a */,
 				380DC6B921C8DD9700F77CF1 /* Info.plist */,
 			);
 			path = EyexpoVrSDK;
