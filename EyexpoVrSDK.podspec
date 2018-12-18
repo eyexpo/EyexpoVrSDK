@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EyexpoVrSDK"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "eyespot vr "
 
   # This description is used to generate tags and improve search results.
@@ -123,6 +123,7 @@ Pod::Spec.new do |s|
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
+  s.ios.vendored_library = 'EyexpoVrSDK/liblibEyexpoVr.a'
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
