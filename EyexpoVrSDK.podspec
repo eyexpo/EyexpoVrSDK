@@ -119,7 +119,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "GLKit", "CoreMotion"
+s.frameworks = "GLKit", "CoreMotion"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
