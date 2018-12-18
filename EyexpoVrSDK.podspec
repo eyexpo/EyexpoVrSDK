@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EyexpoVrSDK"
-  s.version      = "0.0.9"
+  s.version      = "0.1.0"
   s.summary      = "eyexpo vr "
 
   # This description is used to generate tags and improve search results.
@@ -92,8 +92,9 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "EyexpoVrSDK", "EyexpoVrSDK/*.{h,m,a}"
+#s.source_files  = "EyexpoVrSDK", "EyexpoVrSDK/*.{h,m,a}"
   #s.exclude_files = "Classes/Exclude"
+s.source_files  = "EyexpoVrSDK/*.h"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -123,7 +124,8 @@ s.frameworks = "GLKit", "CoreMotion"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
-  s.ios.vendored_library = 'EyexpoVrSDK/libEyexpoVr.a'
+#s.ios.vendored_library = 'EyexpoVrSDK/libEyexpoVr.a'
+s.vendored_library = 'EyexpoVrSDK/*.a'
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
