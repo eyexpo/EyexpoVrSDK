@@ -1,2 +1,2 @@
-# iosVrFramework
+# EyexpoVrSDK
 framewrok for partner
