@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EyexpoVrSDK"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "eyexpo vr "
 
   # This description is used to generate tags and improve search results.
@@ -136,5 +136,7 @@ s.frameworks = "GLKit", "CoreMotion"
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+
+s.xcconfig = { 'OTHER_LDFLAGS' => '/usr/lib/libz.dylib' }
 
 end
