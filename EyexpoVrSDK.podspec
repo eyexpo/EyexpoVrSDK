@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EyexpoVrSDK"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "eyexpo vr "
 
   # This description is used to generate tags and improve search results.
@@ -120,7 +120,7 @@ s.source_files  = "EyexpoVrSDK/*.h"
   #
 
   # s.framework  = "SomeFramework"
-s.frameworks = "GLKit", "CoreMotion"
+  #s.frameworks = "GLKit", "CoreMotion"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
