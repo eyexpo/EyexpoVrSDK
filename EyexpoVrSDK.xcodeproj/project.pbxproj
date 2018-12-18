@@ -9,7 +9,12 @@
 /* Begin PBXBuildFile section */
 		380DC62E21C8992500F77CF1 /* EyexpoVrSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380DC62421C8992500F77CF1 /* EyexpoVrSDK.framework */; };
 		380DC63321C8992500F77CF1 /* EyexpoVrSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 380DC63221C8992500F77CF1 /* EyexpoVrSDKTests.m */; };
-		380DC63521C8992500F77CF1 /* EyexpoVrSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 380DC62721C8992500F77CF1 /* EyexpoVrSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		380DC64121C8995100F77CF1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 380DC63E21C8995100F77CF1 /* README.md */; };
+		380DC64221C8995100F77CF1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 380DC63F21C8995100F77CF1 /* LICENSE */; };
+		380DC64321C8995100F77CF1 /* EyexpoVrSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 380DC64021C8995100F77CF1 /* EyexpoVrSDK.podspec */; };
+		380DC66421C8A0CA00F77CF1 /* liblibEyexpoVr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 380DC66321C8A0CA00F77CF1 /* liblibEyexpoVr.a */; };
+		380DC66721C8A0EB00F77CF1 /* EyexpoPanoramaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 380DC66521C8A0EB00F77CF1 /* EyexpoPanoramaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		380DC66821C8A0EB00F77CF1 /* EyexpoPanoramaViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 380DC66621C8A0EB00F77CF1 /* EyexpoPanoramaViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +29,16 @@
 
 /* Begin PBXFileReference section */
 		380DC62421C8992500F77CF1 /* EyexpoVrSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EyexpoVrSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		380DC62721C8992500F77CF1 /* EyexpoVrSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EyexpoVrSDK.h; sourceTree = "<group>"; };
 		380DC62821C8992500F77CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		380DC62D21C8992500F77CF1 /* EyexpoVrSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyexpoVrSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		380DC63221C8992500F77CF1 /* EyexpoVrSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EyexpoVrSDKTests.m; sourceTree = "<group>"; };
 		380DC63421C8992500F77CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		380DC63E21C8995100F77CF1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		380DC63F21C8995100F77CF1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		380DC64021C8995100F77CF1 /* EyexpoVrSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EyexpoVrSDK.podspec; sourceTree = "<group>"; };
+		380DC66321C8A0CA00F77CF1 /* liblibEyexpoVr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibEyexpoVr.a; sourceTree = "<group>"; };
+		380DC66521C8A0EB00F77CF1 /* EyexpoPanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyexpoPanoramaView.h; sourceTree = "<group>"; };
+		380DC66621C8A0EB00F77CF1 /* EyexpoPanoramaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyexpoPanoramaViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				380DC66421C8A0CA00F77CF1 /* liblibEyexpoVr.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +64,9 @@
 		380DC61A21C8992500F77CF1 = {
 			isa = PBXGroup;
 			children = (
+				380DC64021C8995100F77CF1 /* EyexpoVrSDK.podspec */,
+				380DC63F21C8995100F77CF1 /* LICENSE */,
+				380DC63E21C8995100F77CF1 /* README.md */,
 				380DC62621C8992500F77CF1 /* EyexpoVrSDK */,
 				380DC63121C8992500F77CF1 /* EyexpoVrSDKTests */,
 				380DC62521C8992500F77CF1 /* Products */,
@@ -71,7 +85,9 @@
 		380DC62621C8992500F77CF1 /* EyexpoVrSDK */ = {
 			isa = PBXGroup;
 			children = (
-				380DC62721C8992500F77CF1 /* EyexpoVrSDK.h */,
+				380DC66521C8A0EB00F77CF1 /* EyexpoPanoramaView.h */,
+				380DC66621C8A0EB00F77CF1 /* EyexpoPanoramaViewController.h */,
+				380DC66321C8A0CA00F77CF1 /* liblibEyexpoVr.a */,
 				380DC62821C8992500F77CF1 /* Info.plist */,
 			);
 			path = EyexpoVrSDK;
@@ -93,7 +109,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				380DC63521C8992500F77CF1 /* EyexpoVrSDK.h in Headers */,
+				380DC66821C8A0EB00F77CF1 /* EyexpoPanoramaViewController.h in Headers */,
+				380DC66721C8A0EB00F77CF1 /* EyexpoPanoramaView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +193,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				380DC64321C8995100F77CF1 /* EyexpoVrSDK.podspec in Resources */,
+				380DC64221C8995100F77CF1 /* LICENSE in Resources */,
+				380DC64121C8995100F77CF1 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,19 +356,35 @@
 		380DC63921C8992500F77CF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EyexpoVrSDK",
+				);
 				INFOPLIST_FILE = EyexpoVrSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EyexpoVrSDK",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.eyexpo.EyexpoVrSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -359,19 +395,35 @@
 		380DC63A21C8992500F77CF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EyexpoVrSDK",
+				);
 				INFOPLIST_FILE = EyexpoVrSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EyexpoVrSDK",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.eyexpo.EyexpoVrSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
