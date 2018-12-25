@@ -11,6 +11,19 @@
 
 @interface EyexpoPanoramaViewController : GLKViewController
 
+@property (nonatomic, strong) UIImage *vrImg;
+
+/**
+ 点击view，dismiss ViewController
+ */
+@property (nonatomic) BOOL enableTouchToDismissB;
+
+
+/**
+ 继承此vc，然后在viewDidLoad中调用
+
+ */
+- (void)addVrImg:(UIImage *)img;
 
 @end
 
